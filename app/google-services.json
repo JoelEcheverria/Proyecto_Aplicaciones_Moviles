@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "668467986564",
+    "project_id": "hotelmitaddelmundo-5dadb",
+    "storage_bucket": "hotelmitaddelmundo-5dadb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:668467986564:android:baa08bb62558d9a36d82d1",
+        "android_client_info": {
+          "package_name": "com.example.hotelmitaddelmundo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "668467986564-u3k1uiitm6440ltqf40j3v15ld3hpj8i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyh6VcHFwCDKeqGWNsQylxblTczCXUmKI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "668467986564-u3k1uiitm6440ltqf40j3v15ld3hpj8i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

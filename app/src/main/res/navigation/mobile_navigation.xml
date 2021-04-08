@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@+id/menuInicio">
+
+    <fragment
+        android:id="@+id/menuInicio"
+        android:name="com.example.hotelmitaddelmundo.ui.inicio.inicioFragment"
+        android:label="@string/mInicio"
+        tools:layout="@layout/activity_inicio" />
+    <fragment
+        android:id="@+id/menuHotel"
+        android:name="com.example.hotelmitaddelmundo.ui.hotel.hotelFragment"
+        android:label="@string/mHotel"
+        tools:layout="@layout/fragment_hotel" />
+
+    <fragment
+        android:id="@+id/menuServicios"
+        android:name="com.example.hotelmitaddelmundo.ui.servicios.serviciosFragment"
+        android:label="@string/mServicios"
+        tools:layout="@layout/fragment_servicios" />
+
+    <fragment
+        android:id="@+id/menuReservas"
+        android:name="com.example.hotelmitaddelmundo.ui.reservas.reservasFragment"
+        android:label="@string/mReservas"
+        tools:layout="@layout/activity_reservas" />
+
+    <fragment
+        android:id="@+id/menuGaleria"
+        android:name="com.example.hotelmitaddelmundo.ui.galeria.galeriaFragment"
+        android:label="@string/mGaleria"
+        tools:layout="@layout/activity_galeria" />
+
+    <fragment
+        android:id="@+id/menuRestaurante"
+        android:name="com.example.hotelmitaddelmundo.ui.restaurante.restauranteFragment"
+        android:label="@string/mRestaurante"
+        tools:layout="@layout/activity_restaurante"/>
+
+    <fragment
+        android:id="@+id/menuContactos"
+        android:name="com.example.hotelmitaddelmundo.ui.contactos.contactosFragment"
+        android:label="@string/mContactos"
+        tools:layout="@layout/activity_contactos" />
+</navigation>

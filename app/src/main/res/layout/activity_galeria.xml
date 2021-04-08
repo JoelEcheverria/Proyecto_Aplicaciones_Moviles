@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.galeria.galeriaFragment"
+    android:background="@color/black">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_marginTop="20px"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:text="NUESTRA GALERIA"
+                android:textColor="#F80101"
+                android:textSize="30dp">
+
+            </TextView>
+            <TextView
+                android:layout_marginTop="12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="HABITACIONES"
+                android:layout_marginLeft="100dp"
+                android:textSize="30dp"
+                android:background="@color/black"
+                android:textColor="@color/white">
+
+            </TextView>
+
+            <org.imaginativeworld.whynotimagecarousel.ImageCarousel
+                android:id="@+id/carousel"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:autoPlay="true"
+                app:autoPlayDelay="2000">
+
+            </org.imaginativeworld.whynotimagecarousel.ImageCarousel>
+
+            <LinearLayout
+
+                android:layout_marginTop="20px"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="150dp"
+                    android:background="@color/black"
+                    android:text="PISCINAS"
+                    android:textColor="@color/white"
+                    android:textSize="30dp">
+
+                </TextView>
+                <org.imaginativeworld.whynotimagecarousel.ImageCarousel
+                    android:id="@+id/carouselPisina"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    app:autoPlay="true"
+                    app:autoPlayDelay="3000">
+                </org.imaginativeworld.whynotimagecarousel.ImageCarousel>
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_marginTop="20px"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="RESTAURANT"
+                    android:layout_marginLeft="130dp"
+                    android:textSize="30dp"
+                    android:background="@color/black"
+                    android:textColor="@color/white">
+
+                </TextView>
+                <org.imaginativeworld.whynotimagecarousel.ImageCarousel
+                    android:layout_marginBottom="50dp"
+                    android:id="@+id/carouselRestaurant"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    app:autoPlay="true"
+                    app:autoPlayDelay="4000">
+                </org.imaginativeworld.whynotimagecarousel.ImageCarousel>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
+

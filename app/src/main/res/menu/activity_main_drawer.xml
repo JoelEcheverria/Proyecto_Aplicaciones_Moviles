@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menuInicio"
+            android:icon="@drawable/inicio"
+            android:title="@string/mInicio"
+            />
+        <item
+            android:id="@+id/menuHotel"
+            android:icon="@drawable/ic_baseline_hotel_24"
+            android:title="@string/mHotel" />
+        <item
+            android:id="@+id/menuServicios"
+            android:icon="@drawable/servicios"
+            android:title="@string/mServicios" />
+        <item
+            android:id="@+id/menuReservas"
+            android:icon="@drawable/reserva"
+            android:title="@string/mReservas" />
+        <item
+            android:id="@+id/menuGaleria"
+            android:icon="@drawable/galeria"
+            android:title="@string/mGaleria" />
+        <item
+            android:id="@+id/menuRestaurante"
+            android:icon="@drawable/restaurant"
+            android:title="@string/mRestaurante" />
+
+        <item
+            android:id="@+id/menuContactos"
+            android:icon="@drawable/contactos"
+            android:title="@string/mContactos" />
+    </group>
+</menu>
